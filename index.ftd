@@ -1,0 +1,44 @@
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #eee
+align-content: center
+
+-- card:
+
+-- end: ftd.column
+
+-- component card:
+
+-- ftd.row:
+
+
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px: 350
+background.solid: #c5dff5
+border-width.px: 3
+padding.px: 20 			
+border-radius.px: 20 	
+spacing.fixed.px: 50 
+
+-- ftd.image:
+src: https://w0.peakpx.com/wallpaper/861/211/HD-wallpaper-girl-road-transition-sakura-live-anime-art-thumbnail.jpg
+height: fill-container
+border-radius.px: 20 
+
+-- ftd.column:
+
+-- ftd.text: LUCKNOW
+role: $inherited.types.heading-medium
+
+-- ftd.text: Lucknow is the capital city of Uttar Pradesh and it has always been a multicultural city. Courtly manners, beautiful gardens, poetry, music, and fine cuisine patronized by the Persian-loving Shia Nawabs of the city are well known amongst Indians and students of South Asian culture and history.
+role: $inherited.types.copy-regular
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: card
